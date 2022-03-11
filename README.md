@@ -10,18 +10,18 @@ cmdsrch will take in a text file of linux commands, parse the file and give an o
 feed it a single command. For instance when you ls a bin directory you can copy and paste the output or redirect the 
 output into a text file then run cmdsrch on the file.
 
-Usage: python cmdsrch.py -Flag Option 
-Flags:
--h: Prints help
--p: Prints out dictionary of commands
--f txtFile.txt: Searches dictionary for the commands in the txtFile.txt and displays results
--c command: Searches dictionary the given command
+### Usage: python cmdsrch.py -Flag Option 
+* Flags:
+* -h: Prints help
+* -p: Prints out dictionary of commands
+* -f txtFile.txt: Searches dictionary for the commands in the txtFile.txt and displays results
+* -c command: Searches dictionary the given command
 
-Examples:
-python3 cmdsrch.py -f myTxtFile.txt
-python3 cmdsearch -f ~/Documents/myTxtFile.txt
-python3 cmdsearch -c dir
-python3 cmdsrch -p
+* Examples:
+* python3 cmdsrch.py -f myTxtFile.txt
+* python3 cmdsearch -f ~/Documents/myTxtFile.txt
+* python3 cmdsearch -c dir
+* python3 cmdsrch -p
 
 ### The Dictionary File
 The dictionary is by no means a complete list of all commands. I am still building the dictionary and adding new commands when
