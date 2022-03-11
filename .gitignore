@@ -1,0 +1,6 @@
+# Ignore txt and swp files
+*.txt
+*.swp
+
+# Ignore pycache
+__pycache__
